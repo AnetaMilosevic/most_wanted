@@ -18,7 +18,14 @@ console.log(a[1], a[3], a[4])
 // 72, 14, 9].
 
 var b = [5, 15, -5, 20, 12, 18,72, 14, 9]
-console.log(b[1], b[4], b[5], b[6], b[8])
+
+for (i = 0; i <= b.length; i++){
+    if (b[i] % 3 === 0){
+        console.log(b[i]);
+    } 
+}
+
+//console.log(b[1], b[4], b[5], b[6], b[8])
 
 
 // 5. What is the index of number 24 in the following array?

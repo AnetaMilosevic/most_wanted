@@ -1,0 +1,92 @@
+
+/*body {
+    background-color: burlywood;
+    opacity: 0.5;
+}*/
+
+#paragraph_1 {
+    color:darkturquoise;
+    background-color: black; 
+    opacity: 0.5;
+}
+#paragraph_2 {
+    color:rgb(0, 206, 209);
+    background-color: rgb(139, 0, 0, 0.5);
+}
+#paragraph_3 {
+    color:#00ced1;
+    background-color: darkblue;
+}
+#first_picture {
+    height: 400px;
+    margin: 40px auto 40px;
+    display: block;
+    opacity: 0.5; 
+}
+#second_picture {
+    width: 960px;
+    margin: 20px auto;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: rgba(90, 5, 70, 0.5);
+}
+table {
+    width: 100%;
+    color: rgb(74, 219, 61);
+    background: lightcyan;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+tr {
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+td {
+    padding: 15px 0;
+}
+.column1 {
+    background-color: aliceblue;
+}
+.column2 {
+    background-color: hotpink;
+}
+.column3 {
+    background-color: rgb(97, 218, 145);
+}
+.column4 {
+    background-color: rgb(155, 216, 32);
+}
+.column5 {
+    background-color: rgb(59, 72, 160);
+}
+.column6 {
+    background-color: rgb(96, 23, 105);
+}
+.column7 {
+    background-color: rgb(231, 243, 119);
+}
+.column8 {
+    background-color: rgb(53, 22, 6);
+}
+.column9 {
+    background-color: rgb(43, 144, 25);
+}
+.column10 {
+    background-color: rgb(217, 151, 233);
+}
+.column11 {
+    background-color: rgb(41, 74, 205);
+}
+.column12 {
+    background-color: rgb(21, 24, 5);
+}
+.column32 {
+    background-color: rgb(101, 12, 56);
+}
+.column14 {
+    background-color: rgb(152, 184, 24);
+}
+.column15 {
+    background-color: rgb(15, 58, 187);
+}

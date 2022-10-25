@@ -1,0 +1,15 @@
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.paragraph1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+.paragraph2 {
+    font-style: oblique;
+}
+span {
+    font-style: italic;
+    font-weight: lighter;
+}
