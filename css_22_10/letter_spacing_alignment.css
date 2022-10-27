@@ -1,0 +1,11 @@
+.paragraph1 {
+    letter-spacing: 5px;
+    text-align:left;
+}
+.paragraph2 {
+    line-height: 200%;
+    text-align: right;
+}
+.paragraph3 {
+    text-align: center;
+}

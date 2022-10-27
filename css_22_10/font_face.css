@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: "Roboto_mono";
+    src: url(../Roboto_Mono/RobotoMono-Italic-VariableFont_wght.ttf);
+}
+
+.paragraph1 {
+    font-family: "Roboto_mono";
+}
+
+h4 {
+    font-family: 'Quattrocento Sans', sans-serif;;
+}
