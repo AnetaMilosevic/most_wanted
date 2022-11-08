@@ -1,0 +1,69 @@
+.firstDiv{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.secondDiv{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.thirdDiv{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+.firstDiv1{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    
+}
+.secondDiv2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.thirdDiv3{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.wrapper{
+    position: relative;
+}
+
+.firstDiv4{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
+.secondDiv5{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}
+.thirdDiv6{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    z-index: 1;
+}
