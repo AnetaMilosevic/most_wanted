@@ -1,3 +1,7 @@
+//KOMENTAR: Da li ti je jasno kako ovaj kod funkcionise? Ako nije pitaj slobodno da pojasnimo :)
+// I probaj da uradis peti zadatak, njega smo objasnjavali na casu.
+
+
 // 1. Write a program that calculates the maximum of two given numbers.
 
 function getMax(a, b) {
