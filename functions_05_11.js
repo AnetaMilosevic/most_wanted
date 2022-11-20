@@ -137,7 +137,7 @@ function operationsWithArrayElemnts (numOfelements, numOfelementsOdd){
             sum -= i
         }
      }
-     sum *= 12;
+     sum *= 12.5;
      return sum
 }
 console.log(operationsWithArrayElemnts(n, nOdd))
@@ -200,14 +200,15 @@ console.log(combinationsOfNumbers(range1))
 // Input: 17 | 15
 // Output: true | false
 
-var num = 4
+var num = 25
 
 function isNumberPrime(givenNumber){
-    if (givenNumber > 1 && givenNumber % 2 !== 0 && givenNumber % 3 !== 0 || givenNumber === 2){
-        return true
-    } else{
-        return false
+    var result = true
+    for (var i = 2; i < givenNumber; i++)
+    if (givenNumber % i === 0){
+        result = false
     }
+    return result
 }
 console.log(isNumberPrime(num))
 
