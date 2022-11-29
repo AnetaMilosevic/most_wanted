@@ -1,0 +1,18 @@
+/* body {
+    background-image: url(../images/watercolor-autumn-season.webp);
+    background-repeat: repeat;
+    background-attachment: fixed;
+} */
+
+body{
+    background-image: url("https://exhibitorsearch.messefrankfurt.com/images/original/userdata/bata/85146/5db1785b1050f.jpg");
+    /* background-image: url(../images/hand-painted-watercolor-pastel-sky-background.webp); */
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    /* background-size: 50% 50%; */
+    background-position: stretch;
+    background-size: 100%;
+
+}
