@@ -1,0 +1,48 @@
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    width: 600px;
+    font-size: 50px;
+
+}
+.div1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:orange;
+    width: 34%;
+    height: 33.3%;
+    order: 4;
+}
+
+.div2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:burlywood;
+    width: 34%;
+    height: 33.3%;
+    order: 3;
+}
+
+.div3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:gray;
+    width: 34%;
+    height: 33.3%;
+    order: 2;
+}
+
+.div4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: chocolate;
+    width: 66%;
+    height: 100%;
+    order: 1;
+}

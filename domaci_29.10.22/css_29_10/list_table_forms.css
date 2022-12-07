@@ -1,0 +1,77 @@
+.unorderedList1{
+    list-style-type: circle;
+}
+.unorderedList2{
+    list-style-type: square;
+}
+.orderedList1{
+    list-style-type:upper-alpha;
+}
+.orderedList2{
+    list-style-type:upper-roman;
+}
+.unorderedList3{
+    list-style-image:url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width: 200px;
+    list-style-position: outside;
+}
+.unorderedList4{
+    list-style-image:url(https://www.w3schools.com/cssref/sqpurple.gif);
+    width: 200px;
+    list-style-position: inside;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+th {
+    background-color: red;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table tr:hover {
+    background-color: yellow;   
+}
+.imgSize {
+    height: 100px;
+    width: 50px;
+    }
+.oddRow {
+    background-color: rgb(194, 192, 192);
+}
+
+
+.formGet {
+    width: 300px;
+    height: 400px;
+    background-color: lightgray;
+    margin: auto;
+    border-radius: 20px 0 20px 0;
+}
+.yellow {
+    color: yellow;
+}
+.heding {
+    text-align: center;
+    padding-top: 30px;
+}
+.inputWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.label1 {
+    text-align: left;
+    border-radius: 20px;
+}
+hr {
+    margin: 0 20px 10px;
+}
+
+.submit {
+    background-color: red;
+    width: 100%;
+    color: white;
+}
