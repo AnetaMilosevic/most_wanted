@@ -1,0 +1,25 @@
+$color: #ffff00;
+$color1: #ffa500;
+$color2: #008000;
+
+
+
+a{
+    text-decoration: none;
+    &:link{
+       color: $color2
+    }
+    
+    &:visited{
+        color: $color1;
+        
+    }
+    
+    &:active{
+        color: $color;
+        
+    }
+}
+.important{
+    font-weight: bolder ;
+}

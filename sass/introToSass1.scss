@@ -1,0 +1,35 @@
+$fontSize: 16px;
+$i: 1;
+@while $fontSize <= 22 {
+    .paragraph-#{$i} 
+    {font-size: $fontSize * 1;}
+    $fontSize: $fontSize + 2;
+    $i: $i + 1;
+};
+
+@mixin background-color($color) {
+    @if $color == 1 {
+        background-color: lightblue;
+    }
+    @else if $color == 2 {
+        background-color: lightgreen;
+    }
+    @else if $color == 3 {
+        background-color: aquamarine;
+    }
+    @else if $color == 4 {
+        background-color: blanchedalmond;
+    }
+}
+.paragraph-1{
+    @include background-color(1)
+}
+.paragraph-2{
+    @include background-color(2)
+}
+.paragraph-3{
+    @include background-color(3)
+}
+.paragraph-4{
+    @include background-color(4)
+}

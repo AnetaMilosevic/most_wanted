@@ -1,0 +1,33 @@
+.paragraph-1 {
+  font-size: 16px;
+}
+
+.paragraph-2 {
+  font-size: 18px;
+}
+
+.paragraph-3 {
+  font-size: 20px;
+}
+
+.paragraph-4 {
+  font-size: 22px;
+}
+
+.paragraph-1 {
+  background-color: lightblue;
+}
+
+.paragraph-2 {
+  background-color: lightgreen;
+}
+
+.paragraph-3 {
+  background-color: aquamarine;
+}
+
+.paragraph-4 {
+  background-color: blanchedalmond;
+}
+
+/*# sourceMappingURL=introToSass1.css.map */

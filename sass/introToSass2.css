@@ -1,0 +1,19 @@
+.paragraph-2 {
+  box-sizing: content-box;
+  width: 274px;
+  height: 300px;
+  border: 3px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.paragraph-1 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  border: 3px;
+  border-style: solid;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=introToSass2.css.map */

@@ -1,0 +1,28 @@
+
+
+@function translateContentToBorderBoxWidth ($width, $border, $padding){
+    $content-box: 0;
+    $content-box: $width - $border*2 - $padding*2;
+    @return $content-box
+} 
+
+.paragraph-2 {
+    box-sizing: content-box;
+    width: translateContentToBorderBoxWidth(300px, 3px, 10px); 
+    height: 300px;
+    border: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+
+.paragraph-1 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+    border: 3px;
+    border-style: solid;
+    padding: 10px;
+}
+
+
+

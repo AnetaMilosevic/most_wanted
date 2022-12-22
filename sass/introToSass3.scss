@@ -1,0 +1,18 @@
+
+@use "sass:math";
+
+@function toCalculateColumnWidth($tableWidth, $numberOfColumns){
+    $columnWidth: 0;
+    $columnWidth: math.div($tableWidth, $numberOfColumns);
+    @return $columnWidth
+} 
+
+
+table{
+    border: 1px solid;
+    width: 300px;
+}
+th, td {
+    border: 1px solid;
+    width: toCalculateColumnWidth(300px, 2);
+}
