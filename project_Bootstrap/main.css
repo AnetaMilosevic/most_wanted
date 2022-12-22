@@ -1,0 +1,16 @@
+
+
+#submit {
+    color: white;
+}
+
+
+@media (min-width: 768px) {
+    .imageWrapper {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+    }   
+}
+#socialMediaButon{
+    border-radius: 50%;
+}
