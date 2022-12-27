@@ -15,7 +15,7 @@ function reversedNum(num) {
     return result
 }
 console.log(reversedNum(numb))
-console.log(reversedNum(typeof result))
+console.log(typeof reversedNum(numb))
 
 
 // 2. Write a JavaScript function that returns a passed string with letters in alphabetical order.
