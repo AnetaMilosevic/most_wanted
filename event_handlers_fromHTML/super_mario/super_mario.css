@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.background{
+    height: 100%;
+    position: relative;
+    background-image: url(./assets_mario/bg.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.standingMario{
+    width: 150px;
+    display: inline;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 35%;
+}
+
+.movingMario{
+    width: 120px;
+    display: inline;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 35%;
+}
+
+.hidden {
+    display: none;
+}
