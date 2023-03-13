@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+}
+
+#content-wrapper {
+    width: 100%;
+    text-align: center;   
+}
+
+#show-wrapper{
+    margin: auto;
+    width: 64%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#show-wrapper > a {
+    border: 1px solid gray;
+    text-decoration: none;
+    color: rgb(57, 125, 233);
+}
