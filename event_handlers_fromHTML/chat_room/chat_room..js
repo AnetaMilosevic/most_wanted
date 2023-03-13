@@ -9,20 +9,8 @@ function chat(e) {
     // console.log(paragraph)
     // console.log(inputField)
     content.append(paragraph);
+    inputField.value = ""
 }
 button.addEventListener('click', chat)
 
 
-
-
-// let app = document.querySelector('#app');
-
-// let langs = ['TypeScript', 'HTML', 'CSS'];
-
-// let nodes = langs.map(lang => {
-//     let li = document.createElement('li');
-//     li.textContent = lang;
-//     return li;
-// });
-
-// app.append(...nodes);
